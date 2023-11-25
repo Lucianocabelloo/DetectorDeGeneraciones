@@ -72,6 +72,7 @@ document.getElementById("btnEnviar").addEventListener("click", function() {
     const persona2 = new Persona(nombreUsuario,ApellidoUsuario,añoDeNacimientoUsuario,edadUsuario,DNIUsuario,sexoUsuario,alturaUsuario,pesoUsuario)
     persona2.mostrarGeneracion()
     persona2.mostrarDatos()
+    persona2.esMayorDeEdad()
   })
 
 
